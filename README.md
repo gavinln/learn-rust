@@ -28,3 +28,7 @@ https://www.youtube.com/watch?v=IPmRDS0OSxM
 * How to [learn Rust][1020]
 
 [1020]: https://www.youtube.com/watch?v=sDtQaO5_SOw
+
+* From [Python to Rust][1030] videos
+
+[1030]: https://www.youtube.com/playlist?list=PLEIv4NBmh-GsWGE9mY3sF9c5lgh5Z_jLr
