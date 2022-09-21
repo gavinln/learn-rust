@@ -97,3 +97,7 @@ https://doc.rust-lang.org/
 * From [Python to Rust][1030] videos
 
 [1030]: https://www.youtube.com/playlist?list=PLEIv4NBmh-GsWGE9mY3sF9c5lgh5Z_jLr
+
+* The [Rust programming language][1040]
+
+[1040]: https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/
