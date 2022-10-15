@@ -107,5 +107,3 @@ impl Rectangle {
 fn area3(rect: &Rectangle) -> u32 {
     rect.width * rect.height
 }
-
-

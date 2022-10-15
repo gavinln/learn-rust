@@ -41,9 +41,9 @@ fn main() {
     impl<T: Display + PartialOrd> Pair<T> {
         fn cmp_display(&self) {
             if self.x > self.y {
-                println!("The largest is x = {}", self.x); 
+                println!("The largest is x = {}", self.x);
             } else {
-                println!("The largest is y = {}", self.y); 
+                println!("The largest is y = {}", self.y);
             }
         }
     }
@@ -122,7 +122,7 @@ pub fn some_function<T: Display + Clone, U: Clone + Debug>(_t: &T, _u: &U) -> i3
     3
 }
 
-pub fn some_function2<T: Display + Clone, U: Clone + Debug>(_t: &T, _u: &U) -> i32 
+pub fn some_function2<T: Display + Clone, U: Clone + Debug>(_t: &T, _u: &U) -> i32
     where T: Display + Clone,
           U: Clone + Debug {
     3
@@ -138,4 +138,3 @@ pub fn returns_summarizable() -> impl Summary {
         retweet: false,
     }
 }
-

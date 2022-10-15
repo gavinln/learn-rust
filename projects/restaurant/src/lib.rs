@@ -20,7 +20,7 @@ pub fn eat_at_restaurant() {
 
     // doesn't compile, private field
     // meal.seasonal_fruit = String::from("blueberries");
-    
+
     let _order1 = back_of_house::Appetizer::Soup;
     let _order2 = back_of_house::Appetizer::Salad;
 
@@ -58,5 +58,3 @@ mod back_of_house {
         Salad,
     }
 }
-
-

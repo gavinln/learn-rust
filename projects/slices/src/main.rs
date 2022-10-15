@@ -23,7 +23,7 @@ fn main() {
 
     let s = String::from("hello world");
     let word = first_word(&s);
-    // s.clear();  // cannot mutable borrw because it is borrowed as immutable 
+    // s.clear();  // cannot mutable borrw because it is borrowed as immutable
     println!("word has value {}", word);
 
     // array slices

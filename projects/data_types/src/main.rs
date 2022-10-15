@@ -48,7 +48,7 @@ fn main() {
     println!("Size of {}", size_of::<char>());
 
     // Compound types
-    
+
     // tuple type
     let tup: (i32, f64, u8) = (500, 6.4, 1);
     let (x, y, z) = tup;
