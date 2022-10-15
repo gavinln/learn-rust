@@ -52,3 +52,7 @@ casting:  ## casting, shadowing, constats, static example
 .PHONY: print-format
 print-format:  ## casting, shadowing, constats, static example
 	watchexec -w $@/src/main.rs --force-poll 500 -- cargo run --manifest-path=$@/Cargo.toml
+
+.PHONY: main-lib
+main-lib:  ## casting, shadowing, constats, static example
+	watchexec -w $@/src/main.rs --force-poll 500 -- cargo run --manifest-path=$@/Cargo.toml
