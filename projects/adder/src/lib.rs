@@ -64,7 +64,7 @@ mod tests {
     }
 
     #[test]
-    #[should_panic(expected="Guess value must be between 1 and 100, got 200")]
+    #[should_panic(expected = "Guess value must be between 1 and 100, got 200")]
     fn too_small_or_too_large() {
         Guess::new(200);
     }

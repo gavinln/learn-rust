@@ -8,8 +8,7 @@ fn main() {
 
     let teams = vec![String::from("Blue"), String::from("Yellow")];
     let initial_scores = vec![10, 50];
-    let scores2: HashMap<_, _> =
-        teams.into_iter().zip(initial_scores.into_iter()).collect();
+    let scores2: HashMap<_, _> = teams.into_iter().zip(initial_scores.into_iter()).collect();
     println!("scores2 is {:?}", scores2);
 
     let field_name = String::from("Favorite color");

@@ -40,5 +40,4 @@ fn main() {
     for b in "hello".bytes() {
         println!("{}", b);
     }
-
 }

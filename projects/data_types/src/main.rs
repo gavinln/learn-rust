@@ -5,7 +5,6 @@ fn type_of<T>(_: T) -> &'static str {
     type_name::<T>()
 }
 
-
 fn main() {
     println!("Hello, world!");
 
@@ -16,10 +15,12 @@ fn main() {
     let hex = 0xff;
     let octal = 0o77;
     let binary = 0b1111_0000;
-    let byte = b'A';  // u8 only
+    let byte = b'A'; // u8 only
 
-    println!("decimal {}, hex {}, octal {}, binary {}, byte {}",
-             decimal, hex, octal, binary, byte);
+    println!(
+        "decimal {}, hex {}, octal {}, binary {}, byte {}",
+        decimal, hex, octal, binary, byte
+    );
 
     let overflow_int1: u8 = "255".parse().expect("Not a number!");
     println!("may overflow {}", overflow_int1);

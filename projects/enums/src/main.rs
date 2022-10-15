@@ -1,5 +1,4 @@
 fn main() {
-
     #[derive(Debug)]
     enum IpAddrKind {
         V4,
@@ -30,7 +29,7 @@ fn main() {
     println!("{:?} and {:?}", home, loopback);
 
     #[derive(Debug)]
-    enum IpAddr2{
+    enum IpAddr2 {
         V4(String),
         V6(String),
     }
@@ -41,7 +40,7 @@ fn main() {
     println!("{:?} and {:?}", home, loopback);
 
     #[derive(Debug)]
-    enum IpAddr3{
+    enum IpAddr3 {
         V4(u8, u8, u8, u8),
         V6(String),
     }

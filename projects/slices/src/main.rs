@@ -1,6 +1,6 @@
 fn main() {
     let mut s = String::from("hello world");
-    let word = first_word_index(&s);  // word will have the value 5
+    let word = first_word_index(&s); // word will have the value 5
     println!("s has value '{}'", s);
     s.clear();
     // word still has a value even if s is cleared

@@ -35,7 +35,6 @@ fn calculate_length(s: &String) -> usize {
     s.len()
 }
 
-
 fn change(s2: &mut String) {
     s2.push_str(", world");
 }

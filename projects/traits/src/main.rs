@@ -1,15 +1,13 @@
-use std::fmt::Display;
 use std::clone::Clone;
 use std::fmt::Debug;
+use std::fmt::Display;
 
 fn main() {
     println!("Hello, world!");
 
     let tweet = Tweet {
         username: String::from("horse_ebooks"),
-        content: String::from (
-            "of course, as you probably already know, people"
-        ),
+        content: String::from("of course, as you probably already know, people"),
         reply: false,
         retweet: false,
     };
@@ -34,7 +32,7 @@ fn main() {
 
     impl<T> Pair<T> {
         fn new(x: T, y: T) -> Self {
-            Self {x, y}
+            Self { x, y }
         }
     }
 
@@ -68,7 +66,6 @@ pub struct NewsArticle {
     pub location: String,
     pub author: String,
     pub content: String,
-
 }
 
 impl Summary for NewsArticle {
@@ -109,7 +106,6 @@ pub fn notify_bound<T: Summary>(item: &T) {
 // pub fn notify2(item1: &impl Summary, item2: &impl Summary)
 // pub fn notify_bound2<T: Summary>(item1: &T, item2: &T)
 
-
 pub fn notify3(item: &(impl Summary + Display)) {
     println!("Breaking news! {}", item.summarize());
 }
@@ -123,17 +119,17 @@ pub fn some_function<T: Display + Clone, U: Clone + Debug>(_t: &T, _u: &U) -> i3
 }
 
 pub fn some_function2<T: Display + Clone, U: Clone + Debug>(_t: &T, _u: &U) -> i32
-    where T: Display + Clone,
-          U: Clone + Debug {
+where
+    T: Display + Clone,
+    U: Clone + Debug,
+{
     3
 }
 
 pub fn returns_summarizable() -> impl Summary {
     Tweet {
         username: String::from("horse_ebooks"),
-        content: String::from(
-            "of course, as you probably already know, people",
-        ),
+        content: String::from("of course, as you probably already know, people"),
         reply: false,
         retweet: false,
     }

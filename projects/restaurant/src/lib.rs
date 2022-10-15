@@ -1,5 +1,5 @@
-use rand::Rng;
 use crate::front_of_house::hosting;
+use rand::Rng;
 mod front_of_house;
 
 // this works too

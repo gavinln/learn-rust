@@ -16,7 +16,6 @@ fn main() {
     println!("The value of z is: {}", z);
 }
 
-
 fn another_function(x: i32, y: i64) {
     println!("The value of x is: {} and y is {}", x, y);
 }

@@ -1,8 +1,8 @@
+use std::error::Error;
+use std::fs;
 use std::fs::File;
 use std::io::ErrorKind;
 use std::io::Read;
-use std::fs;
-use std::error::Error;
 
 #[allow(dead_code)]
 fn main2() -> Result<(), Box<dyn Error>> {
@@ -50,7 +50,6 @@ fn main() {
     println!("String is {:?}", s);
 }
 
-
 #[allow(dead_code)]
 fn one_error(file: &std::io::Result<File>) {
     // if cannot find file panics
@@ -68,7 +67,7 @@ fn two_errors(file: &std::io::Result<File>) {
         Err(error) => match error.kind() {
             ErrorKind::NotFound => panic!("File not found"),
             other_error => panic!("other error {:?}", other_error),
-        }
+        },
     };
 }
 
@@ -84,7 +83,7 @@ fn three_errors(file: std::io::Result<File>) {
                 Err(error2) => panic!("Error creating file {:?}", error2),
             },
             other_error => panic!("other error {:?}", other_error),
-        }
+        },
     };
 }
 
@@ -98,7 +97,7 @@ fn read_username_from_file() -> Result<String, std::io::Error> {
     let mut s = String::new();
     match f.read_to_string(&mut s) {
         Ok(_) => Ok(s),
-        Err(e) => Err(e)
+        Err(e) => Err(e),
     }
 }
 
