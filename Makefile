@@ -8,3 +8,7 @@ help:  ## help for this Makefile
 .PHONY: tmux
 tmux:  ## start tmux
 	tmuxp load tmux.yaml
+
+.PHONY: rustfmt-check
+rustfmt-check:  ## rust code format checker
+	bash $(SCRIPT_DIR)/scripts/rust-format.sh
