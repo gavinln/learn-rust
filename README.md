@@ -78,16 +78,16 @@ https://doc.rust-lang.org/
 
 ### Chapter 13 - Functional Language Features: Iterators and Closures
 
-1. closures
-2. iterators
+1. closures ./projects/closures/
+2. iterators ./projects/iterators/
 
 ### Chapter 14 - More about Cargo and Crates.io
 
 ### Chapter 15 - Smart Pointers
 
-1. box
-2. deref
-3. drop
+1. `box_ptr` `./projects/box_ptr/`
+2. deref ./projects/deref/
+3. drop ./projects/drop/
 4. rc
 5. refcell
 6. `ref_cycles`
@@ -131,3 +131,7 @@ https://doc.rust-lang.org/
 * The [Rust programming language][1040]
 
 [1040]: https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/
+
+* Practical guide to [async in Rust][1050]
+
+[1050]: https://blog.logrocket.com/a-practical-guide-to-async-in-rust/
