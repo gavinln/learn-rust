@@ -90,16 +90,20 @@ https://doc.rust-lang.org/
 3. drop ./projects/drop/
 4. rc ./projects/rc/
 5. refcell ./projects/refcell/
-6. `ref_cycles`
+6. `ref_cycles` `./projects/ref_cycles/`
 
 ### Chapter 16 - Fearless Concurrency
 
-1. threads
-2. `message_passing`
-3. `shared_state`
-4. `sync_send`
+1. threads ./projects/threads/
+2. `message_passing` `./projects/message_passing/`
+3. `shared_state` `./projects/shared_state/`
+4. `sync_send` `./projects/sync_send`
 
 ### Chapter 17 - Object Oriented Programming Features of Rust
+
+1. encapsulation `./projects/encapsulation_impl/`
+2. polymorphism `./projects/polymorphism_traits/`
+3. oop `./projects/oop/'
 
 ### Chapter 18 - Patterns and Matching
 
