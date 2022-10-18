@@ -39,9 +39,9 @@ https://doc.rust-lang.org/
 
 ### Chapter 04 - Understanding Ownership
 
-1. ownership ./projects/ownership/
-2. references ./projects/references/
-3. slices ./projects/slices/
+1. `ownership` `./projects/ownership/`
+2. `references` `./projects/references/`
+3. `slices` `./projects/slices/`
 
 ### Chapter 05 - Using Structs
 
@@ -88,8 +88,8 @@ https://doc.rust-lang.org/
 1. `box_ptr` `./projects/box_ptr/`
 2. deref ./projects/deref/
 3. drop ./projects/drop/
-4. rc
-5. refcell
+4. rc ./projects/rc/
+5. refcell ./projects/refcell/
 6. `ref_cycles`
 
 ### Chapter 16 - Fearless Concurrency
