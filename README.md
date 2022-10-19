@@ -107,6 +107,9 @@ https://doc.rust-lang.org/
 
 ### Chapter 18 - Patterns and Matching
 
+1. `pattern_locations` `./projects/pattern_locations/`
+2. `pattern_syntax` `./projects/pattern_syntax/`
+
 ## Rust language book remaining
 
 ### Chapter 11 - Writing Automated Tests
