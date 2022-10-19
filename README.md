@@ -103,7 +103,7 @@ https://doc.rust-lang.org/
 
 1. encapsulation `./projects/encapsulation_impl/`
 2. polymorphism `./projects/polymorphism_traits/`
-3. oop `./projects/oop/'
+3. `ood_pattern` `./projects/ood_pattern`
 
 ### Chapter 18 - Patterns and Matching
 
