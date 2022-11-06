@@ -1,5 +1,11 @@
 # Rust tutorial videos
 
+An in depth introduction to the Rust programming language. This series assumes
+you know at least one programming language and have a basic understanding of
+programming concepts.
+
+Doug Milford
+
 ## Links
 
 [Video tutorials][1000]
