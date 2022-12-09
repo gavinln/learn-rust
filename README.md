@@ -117,6 +117,31 @@ https://doc.rust-lang.org/
 1. adder
 2. `running_tests`
 
+## Rustlings
+
+Learn Rust with small exercises.
+
+### Install
+
+1. Lookup the latest version at https://github.com/rust-lang/rustlings/releases/latest
+
+2. Clone the code
+
+```
+git clone -b 5.2.1 --depth 1 https://github.com/rust-lang/rustlings
+```
+
+3. Setup the project
+
+```
+cd rustlings
+cargo install --force --path .
+```
+
+4. Move the rustlings directory to ~/
+
+This makes WSL watch work and also runs the code faster.
+
 ## Links
 
 * [Rust programming language][1000] book
