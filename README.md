@@ -142,6 +142,10 @@ cargo install --force --path .
 
 This makes WSL watch work and also runs the code faster.
 
+## Rust concepts
+
+https://rauljordan.com/rust-concepts-i-wish-i-learned-earlier/
+
 ## Links
 
 * [Rust programming language][1000] book
